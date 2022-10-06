@@ -1,0 +1,31 @@
+$button-padding-block: 0.6875rem;
+$button-padding-inline: 1.875rem;
+$radius: 8px;
+
+$input-padding-inline: 1.25rem;
+$input-padding-block: $button-padding-block;
+
+// buttons
+.btn {
+  padding: $button-padding-block $button-padding-inline;
+  font-weight: 600;
+  border-radius: $radius;
+  @extend .fs-14;
+}
+
+// inputs
+input,
+.form-control {
+  padding: $input-padding-block $input-padding-inline;
+  border: 1px solid $primary-faded;
+  @extend .fs-14;
+  font-weight: 400;
+}
+
+
+// card
+.card {
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  box-shadow: 3px 5px 20px rgba($primary, 0.04);
+  border-radius: 4px;
+}

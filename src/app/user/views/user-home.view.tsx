@@ -1,6 +1,6 @@
 const UserHomeView = () => {
   return (
-    <div>
+    <div className="container">
       <h1>UserHomeView</h1>
     </div>
   );
